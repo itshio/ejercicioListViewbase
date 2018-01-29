@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 String clicadocorto = parent.getItemAtPosition(position).toString();
-                Toast.makeText(getApplicationContext(),"has pulsado corto",Toast.LENGTH_LONG).show();
+                superior.setText(clicadocorto);
 
 
             }
